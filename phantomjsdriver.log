@@ -1,0 +1,1010 @@
+[INFO  - 2017-04-20T12:32:50.042Z] GhostDriver - Main - running on port 29584
+[INFO  - 2017-04-20T12:32:50.671Z] Session [77ca4860-25c5-11e7-9359-477bfa751ba6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-20T12:32:50.671Z] Session [77ca4860-25c5-11e7-9359-477bfa751ba6] - page.customHeaders:  - {}
+[INFO  - 2017-04-20T12:32:50.671Z] Session [77ca4860-25c5-11e7-9359-477bfa751ba6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-20T12:32:50.672Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 77ca4860-25c5-11e7-9359-477bfa751ba6
+[INFO  - 2017-04-20T12:33:09.363Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-20T12:35:48.648Z] GhostDriver - Main - running on port 21280
+[INFO  - 2017-04-20T12:35:49.491Z] Session [e26033b0-25c5-11e7-84bc-7ba60527568b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-20T12:35:49.491Z] Session [e26033b0-25c5-11e7-84bc-7ba60527568b] - page.customHeaders:  - {}
+[INFO  - 2017-04-20T12:35:49.492Z] Session [e26033b0-25c5-11e7-84bc-7ba60527568b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-20T12:35:49.492Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e26033b0-25c5-11e7-84bc-7ba60527568b
+[ERROR - 2017-04-20T12:36:39.027Z] Session [e26033b0-25c5-11e7-84bc-7ba60527568b] - page.onError - msg: Facebook Pixel Error: Duplicate Pixel ID: 870922406323959
+[ERROR - 2017-04-20T12:36:39.028Z] Session [e26033b0-25c5-11e7-84bc-7ba60527568b] - page.onError - stack:
+  xb (http://connect.facebook.net/en_US/fbevents.js:1)
+[INFO  - 2017-04-20T12:37:15.315Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-21T07:50:39.708Z] GhostDriver - Main - running on port 40383
+[INFO  - 2017-04-21T07:50:40.302Z] Session [36eae460-2667-11e7-8999-774875f68ced] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-21T07:50:40.302Z] Session [36eae460-2667-11e7-8999-774875f68ced] - page.customHeaders:  - {}
+[INFO  - 2017-04-21T07:50:40.302Z] Session [36eae460-2667-11e7-8999-774875f68ced] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-21T07:50:40.303Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 36eae460-2667-11e7-8999-774875f68ced
+[INFO  - 2017-04-21T07:50:59.684Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-24T12:23:22.801Z] GhostDriver - Main - running on port 32873
+[INFO  - 2017-04-24T12:23:23.655Z] Session [cf79a8f0-28e8-11e7-b0ed-ebcbb98bc409] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-24T12:23:23.655Z] Session [cf79a8f0-28e8-11e7-b0ed-ebcbb98bc409] - page.customHeaders:  - {}
+[INFO  - 2017-04-24T12:23:23.655Z] Session [cf79a8f0-28e8-11e7-b0ed-ebcbb98bc409] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-24T12:23:23.656Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: cf79a8f0-28e8-11e7-b0ed-ebcbb98bc409
+[ERROR - 2017-04-24T12:23:50.555Z] Session [cf79a8f0-28e8-11e7-b0ed-ebcbb98bc409] - page.onError - msg: Facebook Pixel Error: Duplicate Pixel ID: 870922406323959
+[ERROR - 2017-04-24T12:23:50.555Z] Session [cf79a8f0-28e8-11e7-b0ed-ebcbb98bc409] - page.onError - stack:
+  yb (http://connect.facebook.net/en_US/fbevents.js:1)
+[ERROR - 2017-04-24T12:25:23.664Z] Session [cf79a8f0-28e8-11e7-b0ed-ebcbb98bc409] - page.onError - msg: Facebook Pixel Error: Duplicate Pixel ID: 870922406323959
+[ERROR - 2017-04-24T12:25:23.665Z] Session [cf79a8f0-28e8-11e7-b0ed-ebcbb98bc409] - page.onError - stack:
+  yb (http://connect.facebook.net/en_US/fbevents.js:1)
+[INFO  - 2017-04-24T12:25:41.837Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-27T06:57:20.781Z] GhostDriver - Main - running on port 41960
+[INFO  - 2017-04-27T06:57:21.477Z] Session [c2bf47c0-2b16-11e7-afc3-996fa9b406f3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-27T06:57:21.477Z] Session [c2bf47c0-2b16-11e7-afc3-996fa9b406f3] - page.customHeaders:  - {}
+[INFO  - 2017-04-27T06:57:21.478Z] Session [c2bf47c0-2b16-11e7-afc3-996fa9b406f3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-27T06:57:21.478Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c2bf47c0-2b16-11e7-afc3-996fa9b406f3
+[ERROR - 2017-04-27T06:58:00.770Z] Session [c2bf47c0-2b16-11e7-afc3-996fa9b406f3] - page.onError - msg: Facebook Pixel Error: Duplicate Pixel ID: 870922406323959
+[ERROR - 2017-04-27T06:58:00.770Z] Session [c2bf47c0-2b16-11e7-afc3-996fa9b406f3] - page.onError - stack:
+  yb (http://connect.facebook.net/en_US/fbevents.js:1)
+[ERROR - 2017-04-27T06:58:29.933Z] Session [c2bf47c0-2b16-11e7-afc3-996fa9b406f3] - page.onError - msg: Facebook Pixel Error: Duplicate Pixel ID: 870922406323959
+[ERROR - 2017-04-27T06:58:29.933Z] Session [c2bf47c0-2b16-11e7-afc3-996fa9b406f3] - page.onError - stack:
+  yb (http://connect.facebook.net/en_US/fbevents.js:1)
+[INFO  - 2017-04-27T06:58:45.944Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-04-27T08:22:01.206Z] GhostDriver - Main - running on port 33980
+[INFO  - 2017-04-27T08:22:02.702Z] Session [9764d660-2b22-11e7-8263-57b2217ab3f9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-27T08:22:02.702Z] Session [9764d660-2b22-11e7-8263-57b2217ab3f9] - page.customHeaders:  - {}
+[INFO  - 2017-04-27T08:22:02.702Z] Session [9764d660-2b22-11e7-8263-57b2217ab3f9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-27T08:22:02.703Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9764d660-2b22-11e7-8263-57b2217ab3f9
+[INFO  - 2017-04-27T08:27:01.209Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-27T08:32:01.209Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-27T08:37:01.209Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-27T08:42:01.220Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-27T08:47:01.223Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-08T12:19:43.912Z] GhostDriver - Main - running on port 17629
+[INFO  - 2017-05-08T12:19:45.010Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-08T12:19:45.010Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.customHeaders:  - {}
+[INFO  - 2017-05-08T12:19:45.011Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-08T12:19:45.011Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9eef94a0-33e8-11e7-a5ce-fb5fc39b895c
+[ERROR - 2017-05-08T12:20:41.522Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-08T12:20:41.522Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8082/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8082/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-08T12:20:43.797Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-08T12:20:43.797Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8082/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8082/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-08T12:20:44.741Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-08T12:20:44.741Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8082/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8082/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-08T12:20:46.639Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-08T12:20:46.639Z] Session [9eef94a0-33e8-11e7-a5ce-fb5fc39b895c] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8082/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8082/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8082/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-08T12:21:08.234Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1494246068211
+[ERROR - 2017-05-08T12:21:28.696Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1494246088670
+[INFO  - 2017-05-08T12:21:34.382Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-05-12T06:00:12.591Z] GhostDriver - Main - running on port 43327
+[INFO  - 2017-05-12T06:00:13.746Z] Session [43db70a0-36d8-11e7-9a98-b95faef02fd7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-12T06:00:13.747Z] Session [43db70a0-36d8-11e7-9a98-b95faef02fd7] - page.customHeaders:  - {}
+[INFO  - 2017-05-12T06:00:13.747Z] Session [43db70a0-36d8-11e7-9a98-b95faef02fd7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-12T06:00:13.747Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 43db70a0-36d8-11e7-9a98-b95faef02fd7
+[INFO  - 2017-05-12T06:05:12.599Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:10:12.601Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:15:12.602Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:20:12.604Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:25:12.604Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:30:12.604Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:35:12.612Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:40:12.613Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:45:12.622Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:50:12.622Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T06:55:12.622Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:00:12.623Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:05:12.623Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:10:12.623Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:15:12.623Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:20:12.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:25:12.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:30:12.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:35:12.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:40:12.655Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:45:12.656Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:50:12.656Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T07:55:12.656Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:00:12.657Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:05:12.657Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:10:12.658Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:15:12.658Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:20:12.658Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:25:12.658Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:30:12.658Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:35:12.658Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:40:12.659Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:45:12.660Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:50:12.663Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T08:55:12.663Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:00:12.666Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:05:12.666Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:10:12.666Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:15:12.667Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:20:12.667Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:25:12.668Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:30:12.669Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:35:12.669Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:40:12.669Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:45:12.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:50:12.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T09:55:12.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:00:12.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:05:12.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:10:12.672Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:15:12.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:20:12.672Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:25:12.672Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:30:12.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:35:12.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:40:12.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:45:12.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:50:12.675Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T10:55:12.675Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:00:12.675Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:05:12.679Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:10:12.680Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:15:12.680Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:20:12.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:25:12.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:30:12.682Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:35:12.683Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:40:12.684Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:45:12.684Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:50:12.684Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T11:55:12.685Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:00:12.685Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:05:12.686Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:10:12.687Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:15:12.687Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:20:12.687Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:25:12.687Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:30:12.687Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:35:12.708Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:40:12.709Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:45:12.717Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:50:12.718Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T12:55:12.718Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T13:00:12.718Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T13:05:12.718Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T13:10:12.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T13:15:12.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T13:20:12.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T13:25:12.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-12T13:30:12.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T11:12:45.756Z] GhostDriver - Main - running on port 19382
+[INFO  - 2017-05-19T11:12:46.607Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T11:12:46.607Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T11:12:46.607Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T11:12:46.607Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 16533170-3c84-11e7-9fa6-f1ccae38c527
+[ERROR - 2017-05-19T11:12:50.746Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:12:50.746Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:12:53.106Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:12:53.106Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:12:53.984Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:12:53.985Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:12:56.013Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:12:56.013Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:12:58.078Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:12:58.082Z] Session [16533170-3c84-11e7-9fa6-f1ccae38c527] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T11:17:45.757Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T11:17:45.758Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '16533170-3c84-11e7-9fa6-f1ccae38c527', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T11:14:00.888Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T11:14:00.888Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T11:14:00.888Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 42999300-3c84-11e7-a7d8-07593137c02c
+[ERROR - 2017-05-19T11:14:04.432Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:14:04.433Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:14:07.094Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:14:07.094Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:14:08.000Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:14:08.001Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:14:09.834Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:14:09.835Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:14:11.901Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:14:11.902Z] Session [42999300-3c84-11e7-a7d8-07593137c02c] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T11:19:00.377Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T11:19:00.378Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '42999300-3c84-11e7-a7d8-07593137c02c', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T11:15:11.798Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T11:15:11.798Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T11:15:11.798Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6cdd94e0-3c84-11e7-b370-c744618e17e3
+[ERROR - 2017-05-19T11:15:15.414Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:15:15.414Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:15:18.079Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:15:18.081Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:15:18.964Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:15:18.965Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:15:20.813Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:15:20.814Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:15:22.850Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:15:22.851Z] Session [6cdd94e0-3c84-11e7-b370-c744618e17e3] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T11:20:11.348Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T11:20:11.349Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '6cdd94e0-3c84-11e7-b370-c744618e17e3', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T11:16:44.826Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T11:16:44.826Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T11:16:44.826Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a4506010-3c84-11e7-8406-3b1b5685db5f
+[ERROR - 2017-05-19T11:16:48.852Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:16:48.852Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:16:51.630Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:16:51.631Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:16:52.938Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:16:52.939Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:16:54.662Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:16:54.662Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T11:16:56.807Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T11:16:56.808Z] Session [a4506010-3c84-11e7-8406-3b1b5685db5f] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T11:21:44.678Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T11:21:44.678Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'a4506010-3c84-11e7-8406-3b1b5685db5f', because windowless
+[INFO  - 2017-05-19T12:28:24.038Z] GhostDriver - Main - running on port 3611
+[INFO  - 2017-05-19T12:28:24.642Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T12:28:24.643Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T12:28:24.643Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T12:28:24.643Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a73461a0-3c8e-11e7-b9b6-7d015c430dc6
+[ERROR - 2017-05-19T12:28:30.067Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:28:30.068Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:28:33.371Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:28:33.371Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:28:34.598Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:28:34.599Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:28:36.765Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:28:36.766Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:28:38.833Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:28:38.834Z] Session [a73461a0-3c8e-11e7-b9b6-7d015c430dc6] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T12:33:24.144Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T12:33:24.145Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'a73461a0-3c8e-11e7-b9b6-7d015c430dc6', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T12:31:08.095Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T12:31:08.095Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T12:31:08.096Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 08a15470-3c8f-11e7-bc67-c73aecd4b7fa
+[ERROR - 2017-05-19T12:31:13.938Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:31:13.939Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:31:17.635Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:31:17.635Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:31:19.217Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:31:19.218Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:31:21.424Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:31:21.425Z] Session [08a15470-3c8f-11e7-bc67-c73aecd4b7fa] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T12:36:07.587Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T12:36:07.587Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '08a15470-3c8f-11e7-bc67-c73aecd4b7fa', because windowless
+[INFO  - 2017-05-19T12:38:43.926Z] GhostDriver - Main - running on port 26030
+[INFO  - 2017-05-19T12:38:44.380Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T12:38:44.380Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T12:38:44.380Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T12:38:44.380Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1898be30-3c90-11e7-bf41-0b65e9673086
+[ERROR - 2017-05-19T12:38:48.973Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:38:48.974Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:38:52.082Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:38:52.083Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:38:53.551Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:38:53.551Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:38:55.467Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:38:55.468Z] Session [1898be30-3c90-11e7-bf41-0b65e9673086] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T12:43:43.929Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T12:43:43.930Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '1898be30-3c90-11e7-bf41-0b65e9673086', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T12:41:45.266Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T12:41:45.267Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T12:41:45.267Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8469e8a0-3c90-11e7-b80c-d158eecba77e
+[ERROR - 2017-05-19T12:41:51.398Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:41:51.398Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:41:54.332Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:41:54.333Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:41:55.789Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:41:55.790Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:41:57.789Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:41:57.789Z] Session [8469e8a0-3c90-11e7-b80c-d158eecba77e] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T12:46:44.699Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T12:46:44.700Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '8469e8a0-3c90-11e7-b80c-d158eecba77e', because windowless
+[INFO  - 2017-05-19T12:58:12.188Z] GhostDriver - Main - running on port 20356
+[INFO  - 2017-05-19T12:58:12.674Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T12:58:12.674Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T12:58:12.675Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T12:58:12.675Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d0f469a0-3c92-11e7-8124-8d49e5169922
+[ERROR - 2017-05-19T12:58:16.655Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:58:16.656Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:58:22.890Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:58:22.891Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:58:24.106Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:58:24.106Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:58:25.644Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:58:25.645Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T12:58:27.727Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T12:58:27.727Z] Session [d0f469a0-3c92-11e7-8124-8d49e5169922] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T13:03:12.306Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T13:03:12.306Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'd0f469a0-3c92-11e7-8124-8d49e5169922', because windowless
+mages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-19T13:00:58.637Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - page.customHeaders:  - {}
+[INFO  - 2017-05-19T13:00:58.637Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-19T13:00:58.638Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 33e03440-3c93-11e7-9072-a9da4f9620d3
+[ERROR - 2017-05-19T13:01:02.597Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T13:01:02.598Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T13:01:05.258Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T13:01:05.259Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T13:01:06.482Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T13:01:06.482Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-19T13:01:07.991Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-19T13:01:07.992Z] Session [33e03440-3c93-11e7-9072-a9da4f9620d3] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-19T13:05:58.509Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-19T13:05:58.509Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '33e03440-3c93-11e7-9072-a9da4f9620d3', because windowless
+[INFO  - 2017-05-22T06:10:35.442Z] GhostDriver - Main - running on port 34794
+[INFO  - 2017-05-22T06:10:36.175Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-22T06:10:36.175Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.customHeaders:  - {}
+[INFO  - 2017-05-22T06:10:36.175Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-22T06:10:36.176Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5efc1170-3eb5-11e7-a6ac-0110d5cd836e
+[ERROR - 2017-05-22T06:10:40.878Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:10:40.879Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:10:43.801Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:10:43.802Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:10:45.045Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:10:45.045Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:10:46.689Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:10:46.690Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:11:21.143Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:11:21.143Z] Session [5efc1170-3eb5-11e7-a6ac-0110d5cd836e] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-22T06:15:35.519Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-22T06:15:35.520Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '5efc1170-3eb5-11e7-a6ac-0110d5cd836e', because windowless
+[INFO  - 2017-05-22T06:17:57.448Z] GhostDriver - Main - running on port 18122
+[INFO  - 2017-05-22T06:17:57.895Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-22T06:17:57.895Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.customHeaders:  - {}
+[INFO  - 2017-05-22T06:17:57.895Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-22T06:17:57.895Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 664530f0-3eb6-11e7-977b-0d51432365ba
+[ERROR - 2017-05-22T06:18:01.665Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:18:01.665Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:18:04.312Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:18:04.312Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:18:05.221Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:18:05.221Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:18:07.008Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:18:07.008Z] Session [664530f0-3eb6-11e7-977b-0d51432365ba] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-22T06:22:57.458Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-22T06:22:57.459Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '664530f0-3eb6-11e7-977b-0d51432365ba', because windowless
+[INFO  - 2017-05-22T06:23:22.033Z] GhostDriver - Main - running on port 9703
+[INFO  - 2017-05-22T06:23:22.441Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-22T06:23:22.441Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.customHeaders:  - {}
+[INFO  - 2017-05-22T06:23:22.441Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-22T06:23:22.441Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 27b6d400-3eb7-11e7-b0f4-7bad4048163b
+[ERROR - 2017-05-22T06:23:26.148Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:23:26.148Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:23:28.845Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:23:28.845Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:23:29.789Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:23:29.789Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:23:31.650Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:23:31.651Z] Session [27b6d400-3eb7-11e7-b0f4-7bad4048163b] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-22T06:28:22.037Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-22T06:28:22.038Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '27b6d400-3eb7-11e7-b0f4-7bad4048163b', because windowless
+[INFO  - 2017-05-22T06:29:38.902Z] GhostDriver - Main - running on port 31983
+[INFO  - 2017-05-22T06:29:39.463Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-22T06:29:39.463Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.customHeaders:  - {}
+[INFO  - 2017-05-22T06:29:39.463Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-22T06:29:39.464Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 086fd1e0-3eb8-11e7-af19-4f4bedfd96de
+[ERROR - 2017-05-22T06:29:43.386Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:29:43.387Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:29:46.081Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:29:46.081Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:29:46.959Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:29:46.959Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:29:48.765Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:29:48.766Z] Session [086fd1e0-3eb8-11e7-af19-4f4bedfd96de] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-22T06:34:39.316Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-22T06:34:39.317Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '086fd1e0-3eb8-11e7-af19-4f4bedfd96de', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-22T06:32:23.596Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - page.customHeaders:  - {}
+[INFO  - 2017-05-22T06:32:23.596Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-22T06:32:23.596Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6a448730-3eb8-11e7-8483-39da6f8c4b2d
+[ERROR - 2017-05-22T06:32:28.515Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:32:28.515Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:32:31.231Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:32:31.231Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:32:32.537Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:32:32.537Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:32:34.213Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:32:34.214Z] Session [6a448730-3eb8-11e7-8483-39da6f8c4b2d] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-22T06:37:23.073Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-22T06:37:23.074Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '6a448730-3eb8-11e7-8483-39da6f8c4b2d', because windowless
+[INFO  - 2017-05-22T06:39:32.402Z] GhostDriver - Main - running on port 21155
+[INFO  - 2017-05-22T06:39:32.956Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-22T06:39:32.956Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.customHeaders:  - {}
+[INFO  - 2017-05-22T06:39:32.957Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-22T06:39:32.957Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6a2fd140-3eb9-11e7-8e77-a55d9160f910
+[ERROR - 2017-05-22T06:39:36.877Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:39:36.877Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:39:39.614Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:39:39.614Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:39:40.820Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:39:40.820Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:39:42.264Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:39:42.265Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T06:39:44.230Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T06:39:44.230Z] Session [6a2fd140-3eb9-11e7-8e77-a55d9160f910] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-22T06:44:32.645Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-22T06:44:32.646Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '6a2fd140-3eb9-11e7-8e77-a55d9160f910', because windowless
+[INFO  - 2017-05-22T07:31:51.316Z] GhostDriver - Main - running on port 25289
+[INFO  - 2017-05-22T07:31:51.751Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-22T07:31:51.752Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.customHeaders:  - {}
+[INFO  - 2017-05-22T07:31:51.752Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-22T07:31:51.752Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b90dc5e0-3ec0-11e7-ac89-591c34e52f20
+[ERROR - 2017-05-22T07:31:55.465Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T07:31:55.466Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T07:32:02.230Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T07:32:02.230Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T07:32:03.442Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T07:32:03.443Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T07:32:05.215Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T07:32:05.216Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T07:32:07.202Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T07:32:07.203Z] Session [b90dc5e0-3ec0-11e7-ac89-591c34e52f20] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-22T07:36:51.534Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-22T07:36:51.534Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'b90dc5e0-3ec0-11e7-ac89-591c34e52f20', because windowless
+[INFO  - 2017-05-22T08:19:01.031Z] GhostDriver - Main - running on port 38193
+[INFO  - 2017-05-22T08:19:01.577Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-22T08:19:01.578Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.customHeaders:  - {}
+[INFO  - 2017-05-22T08:19:01.578Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-22T08:19:01.578Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72
+[ERROR - 2017-05-22T08:19:05.230Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T08:19:05.230Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T08:19:07.913Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T08:19:07.913Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T08:19:08.457Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T08:19:08.458Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T08:19:10.413Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T08:19:10.415Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-22T08:19:12.386Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-22T08:19:12.387Z] Session [4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-22T08:24:01.037Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-22T08:24:01.037Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '4fc31b10-3ec7-11e7-b19c-ffcdc1eb8a72', because windowless
+[INFO  - 2017-05-24T06:37:12.001Z] GhostDriver - Main - running on port 27570
+[INFO  - 2017-05-24T06:37:12.157Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-24T06:37:12.158Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.customHeaders:  - {}
+[INFO  - 2017-05-24T06:37:12.158Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-24T06:37:12.159Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6b171850-404b-11e7-9296-75e0c049363d
+[ERROR - 2017-05-24T06:37:17.012Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-24T06:37:17.012Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-24T06:37:19.704Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-24T06:37:19.704Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-24T06:37:20.965Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-24T06:37:20.966Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-24T06:37:22.821Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-24T06:37:22.822Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[ERROR - 2017-05-24T06:37:24.893Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-24T06:37:24.894Z] Session [6b171850-404b-11e7-9296-75e0c049363d] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-24T06:42:12.254Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T06:42:12.254Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '6b171850-404b-11e7-9296-75e0c049363d', because windowless
+Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-24T06:38:58.345Z] Session [aa61f200-404b-11e7-a0d1-0f2459cbf539] - page.customHeaders:  - {}
+[INFO  - 2017-05-24T06:38:58.345Z] Session [aa61f200-404b-11e7-a0d1-0f2459cbf539] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-24T06:38:58.345Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: aa61f200-404b-11e7-a0d1-0f2459cbf539
+[ERROR - 2017-05-24T06:39:03.025Z] Session [aa61f200-404b-11e7-a0d1-0f2459cbf539] - page.onError - msg: TypeError: null is not an object (evaluating 'rangeInput.offset().left')
+[ERROR - 2017-05-24T06:39:03.025Z] Session [aa61f200-404b-11e7-a0d1-0f2459cbf539] - page.onError - stack:
+  daterangepicker (http://130.211.74.42:8084/nextory-admin/js/admin/daterangepicker.jQuery.js:51)
+  (anonymous function) (http://130.211.74.42:8084/nextory-admin/js/admin/adminindex.js:1402)
+  resolveWith (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  ready (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+  z (http://130.211.74.42:8084/nextory-admin/js/admin/jquery-1.6.1.min.js:16)
+[INFO  - 2017-05-24T06:43:57.667Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T06:48:57.667Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T06:53:57.667Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T06:58:57.667Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:03:57.667Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:08:57.668Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:13:57.668Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:18:57.668Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:23:57.668Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:28:57.668Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:33:57.669Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:38:57.669Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:43:57.670Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:48:57.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:53:57.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T07:58:57.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:03:57.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:08:57.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:13:57.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:18:57.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:23:57.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:28:57.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:33:57.672Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:38:57.672Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:43:57.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:48:57.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:53:57.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T08:58:57.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:03:57.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:08:57.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:13:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:18:57.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:23:57.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:28:57.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:33:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:38:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:43:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:48:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:53:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T09:58:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:03:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:08:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:13:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:18:57.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:23:57.675Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:28:57.675Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:33:57.675Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:38:57.675Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:43:57.676Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:48:57.677Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:53:57.677Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T10:58:57.677Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:03:57.677Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:08:57.677Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:13:57.677Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:18:57.677Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:23:57.677Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:28:57.677Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:33:57.678Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:38:57.678Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:43:57.678Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:48:57.678Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:53:57.679Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T11:58:57.679Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:03:57.680Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:08:57.680Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:13:57.680Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:18:57.680Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:23:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:28:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:33:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:38:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:43:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:48:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:53:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T12:58:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T13:03:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-05-24T13:08:57.681Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

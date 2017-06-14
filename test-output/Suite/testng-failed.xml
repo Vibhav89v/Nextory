@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="PostRegistrationRuleMailer"/>
+        <include name="ConfirmationsRuleMailerPositive"/>
+        <include name="ConfirmationsRuleMailerNegative"/>
+        <include name="Registrations"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="registrationFlows.RedeemGiftCards">
+        <methods>
+          <include name="redeemGiftCardExistingUserWithLogin"/>
+          <include name="cleanApplication"/>
+          <include name="redeemGiftCardExistingUserWithoutLogin"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="closeBrowser"/>
+          <include name="postCondition"/>
+          <include name="initFramework"/>
+          <include name="preCondition"/>
+          <include name="closeFramework"/>
+        </methods>
+      </class> <!-- registrationFlows.RedeemGiftCards -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

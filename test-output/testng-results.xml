@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="400479" started-at="2017-06-01T09:18:13Z" finished-at="2017-06-01T09:24:53Z">
+    <groups>
+      <group name="All">
+        <method signature="SubscriptionDowngrade.checkingCancelButtons()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="checkingCancelButtons" class="confirmationsRuleMailer.SubscriptionDowngrade"/>
+        <method signature="SubscriptionDowngrade.selectingSameSubscriptionToUpgrade()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="selectingSameSubscriptionToUpgrade" class="confirmationsRuleMailer.SubscriptionDowngrade"/>
+        <method signature="SubscriptionDowngrade.subscriptionDowngrade()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="subscriptionDowngrade" class="confirmationsRuleMailer.SubscriptionDowngrade"/>
+      </group> <!-- All -->
+      <group name="ConfirmationsRuleMailerNegative">
+        <method signature="SubscriptionDowngrade.checkingCancelButtons()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="checkingCancelButtons" class="confirmationsRuleMailer.SubscriptionDowngrade"/>
+        <method signature="SubscriptionDowngrade.selectingSameSubscriptionToUpgrade()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="selectingSameSubscriptionToUpgrade" class="confirmationsRuleMailer.SubscriptionDowngrade"/>
+      </group> <!-- ConfirmationsRuleMailerNegative -->
+      <group name="ConfirmationsRuleMailerPositive">
+        <method signature="SubscriptionDowngrade.subscriptionDowngrade()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="subscriptionDowngrade" class="confirmationsRuleMailer.SubscriptionDowngrade"/>
+      </group> <!-- ConfirmationsRuleMailerPositive -->
+    </groups>
+    <test name="Default test" duration-ms="400479" started-at="2017-06-01T09:18:13Z" finished-at="2017-06-01T09:24:53Z">
+      <class name="confirmationsRuleMailer.SubscriptionDowngrade">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="initFramework" is-config="true" duration-ms="46" started-at="2017-06-01T14:48:13Z" finished-at="2017-06-01T14:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFramework -->
+        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="initBrowser" is-config="true" duration-ms="9" started-at="2017-06-01T14:48:13Z" finished-at="2017-06-01T14:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="initApplication" is-config="true" duration-ms="196925" started-at="2017-06-01T14:48:13Z" finished-at="2017-06-01T14:51:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="preCondition" is-config="true" duration-ms="1" started-at="2017-06-01T14:51:30Z" finished-at="2017-06-01T14:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="checkingCancelButtons()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="checkingCancelButtons" duration-ms="103911" started-at="2017-06-01T14:51:30Z" finished-at="2017-06-01T14:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingCancelButtons -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="postCondition" is-config="true" duration-ms="1" started-at="2017-06-01T14:53:14Z" finished-at="2017-06-01T14:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkingCancelButtons status=SUCCESS method=SubscriptionDowngrade.checkingCancelButtons()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="selectingSameSubscriptionToUpgrade()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="selectingSameSubscriptionToUpgrade" duration-ms="46677" started-at="2017-06-01T14:53:14Z" finished-at="2017-06-01T14:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingSameSubscriptionToUpgrade -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="preCondition" is-config="true" duration-ms="0" started-at="2017-06-01T14:53:14Z" finished-at="2017-06-01T14:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="postCondition" is-config="true" duration-ms="1" started-at="2017-06-01T14:54:00Z" finished-at="2017-06-01T14:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectingSameSubscriptionToUpgrade status=SUCCESS method=SubscriptionDowngrade.selectingSameSubscriptionToUpgrade()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="preCondition" is-config="true" duration-ms="2" started-at="2017-06-01T14:54:00Z" finished-at="2017-06-01T14:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="subscriptionDowngrade()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="subscriptionDowngrade" duration-ms="45821" started-at="2017-06-01T14:54:00Z" finished-at="2017-06-01T14:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscriptionDowngrade -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="postCondition" is-config="true" duration-ms="2" started-at="2017-06-01T14:54:46Z" finished-at="2017-06-01T14:54:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=subscriptionDowngrade status=SUCCESS method=SubscriptionDowngrade.subscriptionDowngrade()[pri:7, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="cleanApplication" is-config="true" duration-ms="7092" started-at="2017-06-01T14:54:46Z" finished-at="2017-06-01T14:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="closeBrowser" is-config="true" duration-ms="3" started-at="2017-06-01T14:54:53Z" finished-at="2017-06-01T14:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeFramework()[pri:0, instance:confirmationsRuleMailer.SubscriptionDowngrade@1e6d1014]" name="closeFramework" is-config="true" duration-ms="0" started-at="2017-06-01T14:54:53Z" finished-at="2017-06-01T14:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFramework -->
+      </class> <!-- confirmationsRuleMailer.SubscriptionDowngrade -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
