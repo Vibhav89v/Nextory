@@ -20,7 +20,7 @@ public class Utility
 {		
 		public static String getFormatedDateTime()
 		{
-			SimpleDateFormat sd = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+			SimpleDateFormat sd = new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss");
 			return sd.format(new Date());
 		}
 		

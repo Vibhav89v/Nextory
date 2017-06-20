@@ -46,7 +46,7 @@ public class StartReading  extends SuperTestScript
   logoutRequired=false;
  }
  
- @Test(enabled=true , priority=7,groups={"PostRegistrationRuleMailer" , "All"})
+ @Test(enabled=true , priority=7,groups={"PostRegistrationRuleMailerPositive" , "All"})
  public void StartReadingTC080501() throws InterruptedException
  { 
     log.info("Start Reading script");

@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.sun.jna.platform.win32.Advapi32Util.Account;
+
 import common.PasswordFromAdmin;
 import common.SuperTestScript;
 import generics.Database;
@@ -35,7 +37,7 @@ public class ChurnFreeTrialCampaignMember extends SuperTestScript
 	}
 	
 	
-	@Test(enabled=true, priority=9, groups={"ConfirmationsRuleMailerPositive" , "All"})
+	@Test(enabled=true, priority=61, groups={"ConfirmationsRuleMailerPositive" , "All"})
 	public void churnFreeTrialCampaignMember()
 	{
 		log.info("ENDING THE SUBSCRIPTION");
@@ -91,20 +93,15 @@ public class ChurnFreeTrialCampaignMember extends SuperTestScript
 			home.clickNextoryLogo();
 			home.clickAccountLink();
 		
-			WebElement elem1 = driver.findElement(By.xpath("//button[@class='btn button big greyButton']"));
-			WebElement elem2 = driver.findElement(By.xpath("//div[@class='ctaButton-fix screenMe']//a[text()='Aktivera Nextory nu!']"));
-			Assert.assertTrue(elem1.isEnabled() && elem2.isEnabled());
-			{
-				log.info("'Aktivera' button is enabled and clickable");
-				log.info("'Aktivera Nextory nu!' button is Enabled and Clickable");
-			}
-		
-		
+	
+			Assert.assertTrue(acc.activeraIsClickable());
+			log.info("'Aktivera' button is enabled and clickable");
+			
 			log.info("logging out");
 			MyAccountPage account=new MyAccountPage(driver);
 			account.clickLogOut();
 		
-			new WebDriverWait(driver,30).until(ExpectedConditions.titleContains("Ljudböcker & E-böcker - Ladda ner Gratis Ljudbok/E-bok Online"));
+			new WebDriverWait(driver,30).until(ExpectedConditions.titleContains("Ljudböcker & E-böcker - Lyssna & läs gratis i mobilen"));
 		
 			driver.manage().deleteAllCookies();
 			driver.get(adminUrl);
@@ -118,15 +115,7 @@ public class ChurnFreeTrialCampaignMember extends SuperTestScript
 			admin.clickSearch();
 			String memberStatus = admin.getMemberType();
 			String subsType = admin.getSubsType();
-//			driver.findElement(By.id("e-mail")).sendKeys(adminUn);
-//			driver.findElement(By.id("password")).sendKeys(adminPwd);
-//			driver.findElement(By.xpath("//input[@value='Logga in']")).click();
-//			driver.findElement(By.xpath("//b[text()='Customer Mgmt']")).click();
-//			driver.findElement(By.xpath("//input[@id='email']")).sendKeys(un);;
-//			driver.findElement(By.xpath("//input[@class='CssButton searchCustomer']")).click();
-//			String memberStatus = driver.findElement(By.xpath("//input[@id='membertype']")).getAttribute("value");
-//			String subsType = driver.findElement(By.xpath("//input[@id='subscriptionType']")).getAttribute("value");
-		
+
 			if(memTypeCode.equalsIgnoreCase("203002"))
 			{
 				Assert.assertEquals(memberStatus, "NONMEMBER_PREVIOUS_TRIAL");
@@ -186,12 +175,12 @@ public class ChurnFreeTrialCampaignMember extends SuperTestScript
 	
 	
 	
-//--------------------------------------------------- Negative Flows ----------------------------------------------------------------------//	
+//--------------------------------------------------- NEGATIVE FLOWS ----------------------------------------------------------------------//	
 	
-	@Test(enabled=true, priority=9, groups={"ConfirmationsRuleMailerNegative" , "All"})
+	@Test(enabled=true, priority=62, groups={"ConfirmationsRuleMailerNegative" , "All"})
 	public void churnFreeTrialCampaignMemberNoSelection()
 	{
-		log.info("ENDING THE SUBSCRIPTION");
+		log.info("CHURN FREE TRIAL CAMPAIGN MEMBER NO SELECTION AT FEEDBACK DROPDOWN: NEGATIVE FLOW");
 		
 		un=Excel.getCellValue(INPUT_PATH, "ChurnFreeTrialCampaign", 1, 0);    //using the Free Trial or Free Campaign Member email		
 		pwd=PasswordFromAdmin.gettingPasswordFromAdmin(un);
@@ -211,7 +200,9 @@ public class ChurnFreeTrialCampaignMember extends SuperTestScript
 		login.clickLoginButton();
 		log.info("Navigating to My Account Page");
 		
-		String text=driver.findElement(By.xpath("//h3[@class='category-h1 dynamic']")).getText();
+		MyAccountPage acc=new MyAccountPage(driver);
+		
+		String text= acc.getMySubscription();
 		log.info(text);
 		String subs=text.substring(22);
 		String memTypeCode= Database.executeQuery("select member_type_code from customerinfo where email='" +un+ "'");
@@ -222,17 +213,32 @@ public class ChurnFreeTrialCampaignMember extends SuperTestScript
 			log.info("Subscription is " +subs);
 			log.info("Clicking on End Subscription button");
 		  
-			MyAccountPage acc=new MyAccountPage(driver);
+			
 			acc.clickToEndSubscription();
 		
+			EndSubscriptionPage end=new EndSubscriptionPage(driver);
 				if(subs.contains("PREMIUM") || subs.contains("STANDARD"))
 				{
-					EndSubscriptionPage end=new EndSubscriptionPage(driver);
-					end.clickToEnd();
+					
+					end.clickToUndo();									//clicking on the Angra button to go back to account page
+					
+					acc.clickToEndSubscription();						//clicking on Avsluta abonnemang button again to end the subscription
+					
+					end.clickToEnd();									//clicking Avsluta button to confirm end subscription.
 				}
 		
 			log.info("Feedback Page");
+			
 			EndSubsFeedbackPage feed=new EndSubsFeedbackPage(driver);
+			
+			feed.clickToUndoButton();								// clicking Angra Button on the Feedback Page, and Navigating back to Konto Page
+			
+			acc.clickToEndSubscription();							// Starts to End the Subscription again from Konto Page
+			
+			if(subs.contains("PREMIUM") || subs.contains("STANDARD"))
+			{
+				end.clickToEnd();									//clicking Avsluta button to confirm end subscription.
+			}
 			
 			feed.clickToEndButton();                                             // Clicking on End Button without Input from Dropdown
 			
@@ -262,20 +268,14 @@ public class ChurnFreeTrialCampaignMember extends SuperTestScript
 			home.clickNextoryLogo();
 			home.clickAccountLink();
 		
-			WebElement elem1 = driver.findElement(By.xpath("//button[@class='btn button big greyButton']"));
-			WebElement elem2 = driver.findElement(By.xpath("//div[@class='ctaButton-fix screenMe']//a[text()='Aktivera Nextory nu!']"));
-			Assert.assertTrue(elem1.isEnabled() && elem2.isEnabled());
-			{
-				log.info("'Aktivera' button is enabled and clickable");
-				log.info("'Aktivera Nextory nu!' button is Enabled and Clickable");
-			}
-		
+			Assert.assertTrue(acc.activeraIsClickable());
+			log.info("'Aktivera' button is enabled and clickable");
 		
 			log.info("logging out");
 			MyAccountPage account=new MyAccountPage(driver);
 			account.clickLogOut();
 		
-			new WebDriverWait(driver,30).until(ExpectedConditions.titleContains("Ljudböcker & E-böcker - Ladda ner Gratis Ljudbok/E-bok Online"));
+			new WebDriverWait(driver,30).until(ExpectedConditions.titleContains("Ljudböcker & E-böcker - Lyssna & läs gratis i mobilen"));
 		
 			driver.manage().deleteAllCookies();
 			driver.get(adminUrl);
@@ -289,14 +289,7 @@ public class ChurnFreeTrialCampaignMember extends SuperTestScript
 			admin.clickSearch();
 			String memberStatus = admin.getMemberType();
 			String subsType = admin.getSubsType();
-//			driver.findElement(By.id("e-mail")).sendKeys(adminUn);
-//			driver.findElement(By.id("password")).sendKeys(adminPwd);
-//			driver.findElement(By.xpath("//input[@value='Logga in']")).click();
-//			driver.findElement(By.xpath("//b[text()='Customer Mgmt']")).click();
-//			driver.findElement(By.xpath("//input[@id='email']")).sendKeys(un);;
-//			driver.findElement(By.xpath("//input[@class='CssButton searchCustomer']")).click();
-//			String memberStatus = driver.findElement(By.xpath("//input[@id='membertype']")).getAttribute("value");
-//			String subsType = driver.findElement(By.xpath("//input[@id='subscriptionType']")).getAttribute("value");
+
 		
 			if(memTypeCode.equalsIgnoreCase("203002"))
 			{

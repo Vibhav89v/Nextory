@@ -45,7 +45,7 @@ public class FindBook extends SuperTestScript
   logoutRequired=false;
  }
  
- @Test(enabled=true , priority=6,  groups={"PostRegistrationRuleMailer" , "All"})
+ @Test(enabled=true , priority=6,  groups={"PostRegistrationRuleMailerPositive" , "All"})
  public void FindBookTC080401() throws InterruptedException
  { 
      log.info("Running Find a Book");

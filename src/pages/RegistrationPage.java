@@ -48,6 +48,24 @@ public class RegistrationPage extends BasePage
 		Losenord.sendKeys(newPwd);
 	}
 	
+	public void clearEPostAddress()
+	{
+		waitTillElementIsVisible(EPostAdress);
+		EPostAdress.clear();
+	}
+	
+	public void clearConfirmNewEmail()
+	{
+		waitTillElementIsVisible(UpprepaEpost);
+		UpprepaEpost.clear();
+	}
+	
+	public void clearNewPassword()
+	{
+		waitTillElementIsVisible(Losenord);
+		Losenord.clear();
+	}
+		
 	public void clickToContinue()
 	{
 		waitTillElementIsVisible(Fortsatt);

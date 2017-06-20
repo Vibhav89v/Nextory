@@ -26,17 +26,18 @@ public class AddDate
 			c.add(Calendar.DATE, days);
 			Date addedDate=c.getTime();
 			String date=dateFormat.format(addedDate);
-			//System.out.println(date);
+			System.out.println("Date after adding the "+days+" days : " +date);
 			
 			return date;
 		}
 	
-//	public static void main(String[] args)
-//	{
-//		currentDate();
-//		int days = (int) Math.round(23.97590361445783);
-//		addingDays(days);
-//	}
+	public static void main(String[] args)
+	{
+		currentDate();
+		int days = (int) Math.round(60.3030303030303);
+		addingDays(days);
+		System.out.println("Number of days to add: " +days);
+	}
 
 }
 

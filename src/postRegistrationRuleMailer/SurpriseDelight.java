@@ -47,7 +47,7 @@ public class SurpriseDelight extends SuperTestScript
 		logoutRequired=false;
 	}
 	
-	@Test(enabled=true, priority=4, groups={"PostRegistrationRuleMailer" , "All"})
+	@Test(enabled=true, priority=4, groups={"PostRegistrationRuleMailerPositive" , "All"})
 	public void SurpriseDelightTC080201() throws InterruptedException
 	{
 		

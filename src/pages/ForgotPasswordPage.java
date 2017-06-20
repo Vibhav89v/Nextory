@@ -30,10 +30,24 @@ public class ForgotPasswordPage extends BasePage
 		EpostAddress.sendKeys(un);
 	}
 	
+	public void clearEmailTextbox()
+	{
+		waitTillElementIsVisible(EpostAddress);
+		EpostAddress.clear();
+	}
+	
 	public void clickSkickaButton()
 	{
 		waitTillElementIsVisible(Skicka);
 		Skicka.click();
+	}
+	
+	public boolean skickaButtonClickable()
+	{
+		waitTillElementIsVisible(Skicka);
+		return Skicka.isEnabled();
+		
+		
 	}
 
 }

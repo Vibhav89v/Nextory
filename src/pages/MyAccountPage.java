@@ -25,7 +25,17 @@ public class MyAccountPage extends BasePage
 	@FindBy(xpath="//div[@class='buttonRow']//button[@class='btn btn-default greyButton button big']")
 	private WebElement AvslutaAbonnemang;
 	
+	@FindBy(xpath="//div[@class='my-account-wrapper clearfix']//li[@class='right']")
+	private WebElement MyOrder;
 	
+	@FindBy(xpath="//div[@class='my-account-wrapper clearfix']//li[@class='left']")
+	private WebElement RunDate;
+	
+	@FindBy(xpath="//h3[@class='category-h1 dynamic']")
+	private WebElement Subscription;
+	
+	@FindBy(xpath= "//button[@class='blueButton flex nedgradering popupLink']")
+	private WebElement AvbrytNedgradering;
 	
 	
 	public MyAccountPage(WebDriver driver) 
@@ -65,6 +75,47 @@ public class MyAccountPage extends BasePage
 		AvslutaAbonnemang.click();
 	}
 	
+	public String getMyOrder()
+	{
+		waitTillElementIsVisible(MyOrder);
+		return MyOrder.getText();
+	}
 	
+	public String getRunDate()
+	{
+		waitTillElementIsVisible(RunDate);
+		return RunDate.getText();
+	}
+	
+	public String getMySubscription()
+	{
+		waitTillElementIsVisible(Subscription);
+		return Subscription.getText();
+	}
+	
+	public boolean activeraIsClickable()
+	{
+		waitTillElementIsVisible(Activera);
+		return Activera.isEnabled();
+	}
+	
+	
+	public boolean avslutaAbonnemangIsClickable()
+	{
+		waitTillElementIsVisible(AvslutaAbonnemang);
+		return AvslutaAbonnemang.isEnabled();
+	}
+	
+	public boolean avbrytIsClickable()
+	{
+		waitTillElementIsVisible(AvbrytNedgradering);
+		return AvbrytNedgradering.isEnabled();
+	}
+	
+	public boolean upgradeButtonIsClickable()
+	{
+		waitTillElementIsVisible(UpgradeButton);
+		return UpgradeButton.isEnabled();
+	}
 
 }

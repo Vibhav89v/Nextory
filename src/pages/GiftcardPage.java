@@ -87,6 +87,31 @@ public class GiftcardPage extends BasePage
 	@FindBy(xpath="//form[@id='giftCardForm-Customer']//h5")
 	private WebElement ExistingStangForm;
 	
+	@FindBy(xpath= "//label[@class='error' and @for='giftVoucher']")
+	private WebElement PresentkodError;
+	
+	@FindBy(xpath = "//label[@class='error' and @for='redeemEmailNew']")
+	private WebElement NewEPostAddressErr;
+	
+	@FindBy(xpath = "//label[@class='error' and @for='redeemEmail']")
+	private WebElement ExistEPostAddressErr;
+	
+	@FindBy(xpath = "//label[@class='error' and @for='confirmemail']")
+	private WebElement ConfEmailErr;
+	
+	@FindBy(xpath = "//label[@class='error' and @for='password']")
+	private WebElement PasswordErr;
+	
+	@FindBy(xpath = "//div[@class='form-group margTop-20']//span[@class='error']")
+	private WebElement WrongNewPwdErr;
+	
+	@FindBy(xpath = "//div[@class='form-group ']//span[@class='error']")
+	private WebElement ExistWrongPwdErr;
+	
+	@FindBy(xpath = "//form[@id='giftCardForm-Customer']//span[@class='error']")
+	private WebElement ExistWrongEmailErr;
+	
+	
 	
 
 	public GiftcardPage(WebDriver driver) 
@@ -250,6 +275,96 @@ public class GiftcardPage extends BasePage
 	{
 		waitTillElementIsVisible(ExistingStangForm);
 		ExistingStangForm.click();
+	}
+	
+	public String getPresentKodErrMsg()
+	{
+		waitTillElementIsVisible(PresentkodError);
+		return PresentkodError.getText();
+	}
+	
+	public String getPostadressErrMsg()
+	{
+		waitTillElementIsVisible(NewEPostAddressErr);
+		return NewEPostAddressErr.getText();
+	}
+	
+	public String getConfEmailErr()
+	{
+		waitTillElementIsVisible(ConfEmailErr);
+		return ConfEmailErr.getText();
+	}
+	
+	public String getPasswordErr()
+	{
+		waitTillElementIsVisible(PasswordErr);
+		return PasswordErr.getText();
+	}
+	
+	public void clearNewPresentkod()
+	{
+		waitTillElementIsVisible(NewFillPresentKod);
+		NewFillPresentKod.clear();
+	}
+	
+	public void clearNewEmail()
+	{
+		waitTillElementIsVisible(NewEPostAddress);
+		NewEPostAddress.clear();
+	}
+	
+	public void clearNewConfEmail()
+	{
+		waitTillElementIsVisible(VerifieraEpost);
+		VerifieraEpost.clear();
+	}
+	
+	public void clearNewPswd()
+	{
+		waitTillElementIsVisible(NewLosenord);
+		NewLosenord.clear();
+	}
+	
+	public String getWrongNewPwdErr()
+	{
+		waitTillElementIsVisible(WrongNewPwdErr);
+		return WrongNewPwdErr.getText();
+	}
+	
+	public String getExistEmailErrMsg()
+	{
+		waitTillElementIsVisible(ExistEPostAddressErr);
+		return ExistEPostAddressErr.getText();
+	}
+	
+	public String getExistingWrongPwdErr()
+	{
+		waitTillElementIsVisible(ExistWrongPwdErr);
+		return ExistWrongPwdErr.getText();
+	}
+	
+	public String getExistingWrongEmailErr()
+	{
+		waitTillElementIsVisible(ExistWrongEmailErr);
+		return ExistWrongEmailErr.getText();
+	}
+	
+	public void clearExistingPresentKod()
+	{
+		waitTillElementIsVisible(ExistingFillPresentKod);
+		ExistingFillPresentKod.clear();
+	}
+	
+	public void clearExistingEPost()
+	{
+		waitTillElementIsVisible(ExistingEpost);
+		ExistingEpost.clear();
+	}
+	
+	public void clearExistingPassword()
+	{
+		waitTillElementIsVisible(ExistingLosenord);
+		ExistingLosenord.clear();
 	}
 	
 	

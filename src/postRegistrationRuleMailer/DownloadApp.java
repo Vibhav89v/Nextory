@@ -46,7 +46,7 @@ public class DownloadApp  extends SuperTestScript
   logoutRequired=false;
  }
  
- @Test(enabled=true , priority=5,  groups={"PostRegistrationRuleMailer" , "All"})
+ @Test(enabled=true , priority=5,  groups={"PostRegistrationRuleMailerPositive" , "All"})
  public void DownloadAppTC080301() throws InterruptedException
  { 
   log.info("Running DownloadApp");

@@ -10,6 +10,13 @@ import common.BasePage;
 
 public class PaymentCardDetailsPage extends BasePage
 {
+	
+	@FindBy(xpath="//input[@class='form-control creditcardnumber']")
+	private WebElement KortNummerNew;
+	
+	@FindBy(xpath="//div[@class='panel panel-default']//span[@class='arrow arrowUp']")
+	private WebElement KreditEller;
+	
 	@FindBy(xpath="//input[@class='creditcardnumber']")
 	private WebElement KortNummerTextBox;
 	
@@ -154,7 +161,7 @@ public class PaymentCardDetailsPage extends BasePage
 	@FindBy(xpath="//input[@class='doSub paymentsubmit']")
 	private WebElement PaymentSubmitButton;
 	
-	@FindBy(xpath="//input[@value='Återaktivera ditt abonnemang']")
+	@FindBy(xpath="//input[@value='Starta din gratisperiod']")
 	private WebElement ReactivateSubs;
 	
 	@FindBy(xpath="//input[@value='Få presentkortet!']")
@@ -163,6 +170,9 @@ public class PaymentCardDetailsPage extends BasePage
 	@FindBy(xpath="//input[@value='Spara kortuppgifter.']")
 	private WebElement Sparakortuppgifter;
 
+	@FindBy(xpath="//button[contains(text(),'Prova igen')]")
+	private WebElement ProvaIgen;
+
 	
 	public PaymentCardDetailsPage(WebDriver driver) 
 	{
@@ -170,12 +180,24 @@ public class PaymentCardDetailsPage extends BasePage
 		PageFactory.initElements(driver, this);
 	}
 	
+	public void clickToOpenPaymentForm()
+	{
+		waitTillElementIsVisible(KreditEller);
+		KreditEller.click();
+	}
 	
 	public void enterCardNumber(String cardNumber)
 	{
 		waitTillElementIsVisible(KortNummerTextBox);
 		KortNummerTextBox.sendKeys(cardNumber);
 	}
+	
+	public void typeCardNumber(String cardNumber)
+	{
+		waitTillElementIsVisible(KortNummerNew);
+		KortNummerNew.sendKeys(cardNumber);
+	}
+	
 	
 	public void clickExpiryMonthDropdown()
 	{
@@ -477,5 +499,11 @@ public class PaymentCardDetailsPage extends BasePage
 	{
 		waitTillElementIsVisible(Sparakortuppgifter);
 		Sparakortuppgifter.click();
+	}
+
+	public void clickProvaIgen()
+	{
+		waitTillElementIsVisible(ProvaIgen);
+		ProvaIgen.click();
 	}
 }

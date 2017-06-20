@@ -2,11 +2,11 @@ package confirmationsRuleMailer;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import common.PasswordFromAdmin;
 import common.SuperTestScript;
@@ -34,12 +34,12 @@ public class ChurnPayingMember extends SuperTestScript
 		logoutRequired=false;
 	}
 	
-	//SoftAssert soft=new SoftAssert();
+	SoftAssert soft=new SoftAssert();
 	//-----------------------------------------ENDING THE SUBSCRIPTION---------------------------------------------//
 	
 
 	
-	@Test(enabled=true, priority=10, groups={"ConfirmationsRuleMailerPositive" , "All"})
+	@Test(enabled=true, priority=51, groups={"ConfirmationsRuleMailerPositive" , "All"})
 	public void churnPayingMemberTC100601()
 	{
 		log.info("ENDING THE SUBSCRIPTION");
@@ -62,7 +62,9 @@ public class ChurnPayingMember extends SuperTestScript
 		login.clickLoginButton();
 		log.info("Navigating to My Account Page");
 		
-		String text=driver.findElement(By.xpath("//h3[@class='category-h1 dynamic']")).getText();
+		MyAccountPage acc=new MyAccountPage(driver);
+		
+		String text= acc.getMySubscription();
 		log.info(text);
 		String subs=text.substring(22);
 		
@@ -75,7 +77,7 @@ public class ChurnPayingMember extends SuperTestScript
 		   log.info("Subscription is " +subs);
 		   
 		   log.info("Clicking on End Subscription button");
-		   MyAccountPage acc=new MyAccountPage(driver);
+		   
 		   acc.clickToEndSubscription();
 
 		   log.info("Confirming");
@@ -94,7 +96,6 @@ public class ChurnPayingMember extends SuperTestScript
 			   log.info("Subscription is BAS");
 			   
 			   log.info("Clicking on End Subscription button");
-			   MyAccountPage acc=new MyAccountPage(driver);
 			   acc.clickToEndSubscription();
 		   }
 		   
@@ -124,7 +125,7 @@ public class ChurnPayingMember extends SuperTestScript
 		{
 			String act1=driver.findElement(By.xpath("//h3[contains(text(),'konto är avslutat')]")).getText();
 			String actTrim1 = act1.replaceAll("\\s+", "");
-			String exp1= "BASEkontoäravslutat";
+			String exp1= "BASkontoäravslutat";
 			
 			Assert.assertEquals(actTrim1, exp1);
 			log.info(act1);
@@ -161,8 +162,8 @@ public class ChurnPayingMember extends SuperTestScript
 			log.info("Your Default account is valid until : "+act);
 	
 		
-		WebElement elem = driver.findElement(By.xpath("//button[contains(text(),'Aktivera')]"));
-		if(elem.isEnabled())
+		
+		if(acc.activeraIsClickable())
 		{
 			log.info("Aktivera button is enabled and clickable");
 		}
@@ -175,7 +176,7 @@ public class ChurnPayingMember extends SuperTestScript
 		MyAccountPage account=new MyAccountPage(driver);
 		account.clickLogOut();
 		
-		new WebDriverWait(driver,30).until(ExpectedConditions.titleContains("Ljudböcker & E-böcker - Ladda ner Gratis Ljudbok/E-bok Online"));
+		new WebDriverWait(driver,30).until(ExpectedConditions.titleContains("Ljudböcker & E-böcker - Lyssna & läs gratis i mobilen"));
 		
 		driver.manage().deleteAllCookies();
 		driver.get(adminUrl);
@@ -219,7 +220,7 @@ public class ChurnPayingMember extends SuperTestScript
 	
 	
 	
-	@Test(enabled=true, priority=11, groups={"ConfirmationsRuleMailerPositive" , "All"})
+	@Test(enabled=true, priority=52, groups={"ConfirmationsRuleMailerPositive" , "All"})
 	public void churnPayingMemberTC100602()
 	{
 		log.info("CHOOSING TO GO FOR LOWER SUBSCRIPTION RATHER THAN ENDING");
@@ -242,19 +243,21 @@ public class ChurnPayingMember extends SuperTestScript
 		login.clickLoginButton();
 		log.info("Navigating to My Account Page");
 		
-		 String text=driver.findElement(By.xpath("//h3[@class='category-h1 dynamic']")).getText();
-		 log.info(text);
-		 String subs=text.substring(22);
+		MyAccountPage acc=new MyAccountPage(driver);
 		
-		 try
-		   {
+		String text= acc.getMySubscription();
+		log.info(text);
+		String subs=text.substring(22);
+		
+		try
+		  {
 			  
-			   if(text.contains("PREMIUM") || text.contains("STANDARD"))
+		   if(text.contains("PREMIUM") || text.contains("STANDARD"))
 			   {
 				   log.info("Subscription is " +subs);
 			   
 				   log.info("Clicking on End Subscription button");
-				   MyAccountPage acc=new MyAccountPage(driver);
+				   
 				   acc.clickToEndSubscription();
 
 				   log.info("Clicking Ja Tack Button to go for Lower Subscription");
@@ -268,7 +271,7 @@ public class ChurnPayingMember extends SuperTestScript
 				   
 				   if(text.contains("PREMIUM PLUS"))
 				   {
-					   String act2= driver.findElement(By.xpath("//h3[@class='category-h1 dynamic' and contains(text(),'Du har abonnemanget')]")).getText();
+					   String act2= acc.getMySubscription();
 					   String actTrim2= act2.replaceAll("\\s+", "");
 					   String exp2= "Duharabonnemanget:PREMIUMPLUS";
 					   
@@ -279,7 +282,7 @@ public class ChurnPayingMember extends SuperTestScript
 				   
 				   else if(text.contains("STANDARD"))
 				   {
-					   String act1= driver.findElement(By.xpath("//h3[@class='category-h1 dynamic' and contains(text(),'Du har abonnemanget')]")).getText();
+					   String act1= acc.getMySubscription();
 					   String exp1= "Duharabonnemanget:STANDARD";
 					   String actTrim1= act1.replaceAll("\\s+","");
 					   
@@ -290,7 +293,7 @@ public class ChurnPayingMember extends SuperTestScript
 				   
 				   else if(text.contains("PREMIUM"))
 				   {
-					   String act1= driver.findElement(By.xpath("//h3[@class='category-h1 dynamic' and contains(text(),'Du har abonnemanget')]")).getText();
+					   String act1= acc.getMySubscription();
 					   String exp1= "Duharabonnemanget:PREMIUM";
 					   String actTrim1= act1.replaceAll("\\s+","");
 					  
@@ -305,22 +308,21 @@ public class ChurnPayingMember extends SuperTestScript
 				   
 				
 						String exp= runDate;
-						String act=driver.findElement(By.xpath("//h5[contains(text(),'Nästa betalning')]/../..//li[@class='left']")).getText();
+						String act=acc.getRunDate();
 						Assert.assertEquals(act, exp);	
 						log.info("Expected date for Next Payment is : " +exp);
 						log.info("Actual Next Payment date is : "+act);
 						
 						String expSub= "BAS:99kr/månad";
-						String actSub=driver.findElement(By.xpath("//h5[contains(text(),'Nästa betalning')]/../..//li[@class='right']")).getText();
+						String actSub= acc.getMyOrder();
 						String actSubTrim= actSub.replaceAll("\\s+", "");
 						Assert.assertEquals(actSubTrim, expSub);
 						
 						log.info("Next Subscription will be : " +actSub);
 					
 				   
-				   WebElement ele1=driver.findElement(By.xpath("//button[@class='blueButton flex nedgradering popupLink']"));
-				   WebElement ele2=driver.findElement(By.xpath("//form[@action='/konto/vill-to-end-member-konto']/button[@class='btn btn-default greyButton button big']"));
-				   if(ele1.isEnabled() && ele2.isEnabled())
+				 
+				   if(acc.avslutaAbonnemangIsClickable() && acc.avbrytIsClickable())
 				   {
 					   log.info("Cancel Downgrade button is Clickable");
 					   log.info("End Subscription button is Clickable");
@@ -338,7 +340,7 @@ public class ChurnPayingMember extends SuperTestScript
 				   	log.info("Subscription is BAS");
 				   
 				   	log.info("Clicking on End Subscription button");
-				   	MyAccountPage acc=new MyAccountPage(driver);
+				   
 				   	acc.clickToEndSubscription();
 				   
 				   	log.info("Feedback Page");
@@ -370,8 +372,8 @@ public class ChurnPayingMember extends SuperTestScript
 						log.info("Expected date for Account access is until : " +exp);
 						log.info("Your Default account is valid until : "+act);
 			
-					WebElement elem = driver.findElement(By.xpath("//button[contains(text(),'Aktivera')]"));
-					if(elem.isEnabled())
+					
+					if(acc.activeraIsClickable())
 					{
 						log.info("Aktivera button is enabled and clickable");
 					}
@@ -380,7 +382,14 @@ public class ChurnPayingMember extends SuperTestScript
 						log.info("Aktivera button is not enabled");
 					}
 					
-					new WebDriverWait(driver,30).until(ExpectedConditions.titleContains("Ljudböcker & E-böcker - Ladda ner Gratis Ljudbok/E-bok Online"));
+					home.clickNextoryLogo();
+					home.clickAccountLink();
+					
+					log.info("logging out");
+					MyAccountPage account=new MyAccountPage(driver);
+					account.clickLogOut();
+					
+					new WebDriverWait(driver,30).until(ExpectedConditions.titleContains("Ljudböcker & E-böcker - Lyssna & läs gratis i mobilen"));
 					
 					driver.manage().deleteAllCookies();
 					driver.get(adminUrl);
@@ -422,18 +431,13 @@ public class ChurnPayingMember extends SuperTestScript
 			   e.printStackTrace();
 		   }
 		
-			home.clickNextoryLogo();
-			home.clickAccountLink();
 			
-			log.info("logging out");
-			MyAccountPage account=new MyAccountPage(driver);
-			account.clickLogOut();
 	
 	}
 	
 //---------------------------------------------- NEGATIVE FLOWS ----------------------------------------------//	
 	
-	@Test(enabled=true, priority=100, groups={"ConfirmationsRuleMailerNegative" , "All"})
+	@Test(enabled=true, priority=53, groups={"ConfirmationsRuleMailerNegative" , "All"})
 	public void churnPayingMemberNoSelection()
 	{
 		log.info("NOT SELECTING THE REASON FROM DROPDOWN");
@@ -456,9 +460,15 @@ public class ChurnPayingMember extends SuperTestScript
 		login.clickLoginButton();
 		log.info("Navigating to My Account Page");
 		
-		String text=driver.findElement(By.xpath("//h3[@class='category-h1 dynamic']")).getText();
+		MyAccountPage acc=new MyAccountPage(driver);
+		
+		String text= acc.getMySubscription();
 		log.info(text);
 		String subs=text.substring(22);
+		
+		acc.clickToEndSubscription();
+		
+		EndSubscriptionPage end=new EndSubscriptionPage(driver);
 		
 	   try
 	   {
@@ -466,14 +476,19 @@ public class ChurnPayingMember extends SuperTestScript
 		   if(text.contains("PREMIUM") || text.contains("STANDARD"))
 		   {
 		   
-		   log.info("Subscription is " +subs);
+			   log.info("Subscription is " +subs);
+			   
+			   log.info("Clicking on End Subscription button");
+			   
+			   
 		   
-		   log.info("Clicking on End Subscription button");
-		   MyAccountPage acc=new MyAccountPage(driver);
-		   acc.clickToEndSubscription();
+			   
+			   end.clickNotToEndSubscription();               					//goes back to Konto Page
+			   
+			   acc.clickToEndSubscription();									//navigates to End Subscription Page
+			   end.clickToConfirmEndSubscription();								//navigates to Feedback Dropdown Page
+			   
 		   
-		   EndSubscriptionPage end=new EndSubscriptionPage(driver);
-		   end.clickToConfirmEndSubscription();
 		   }
 		   
 		   else
@@ -481,8 +496,7 @@ public class ChurnPayingMember extends SuperTestScript
 			   log.info("Subscription is BAS");
 			   
 			   log.info("Clicking on End Subscription button");
-			   MyAccountPage acc=new MyAccountPage(driver);
-			   acc.clickToEndSubscription();
+			  
 		   }
 		   
 	   }
@@ -496,6 +510,15 @@ public class ChurnPayingMember extends SuperTestScript
 	   
 		log.info("Feedback Page");
 		EndSubsFeedbackPage feed=new EndSubsFeedbackPage(driver);
+		
+		feed.clickToUndoButton();	
+		
+		acc.clickToEndSubscription();
+		
+		if(text.contains("PREMIUM") || text.contains("STANDARD"))
+		   {
+			end.clickToConfirmEndSubscription();	
+		   }
 		
 		feed.clickToEndButton();
 		//feed.clickClearButton();
@@ -513,16 +536,109 @@ public class ChurnPayingMember extends SuperTestScript
 		}
 		
 		a1.accept();
-		feed.clickToUndoButton();
 		
-//		log.info("Subscription Ended");
+		
+		feed.clickFeedbackDropdown();
+		feed.selectNoTimeToUse();
+		feed.clickToEndButton();
+		feed.clickClearButton();
+		
+		log.info("Subscription Ended");
 		home.clickNextoryLogo();
 		home.clickAccountLink();
 		
-		//Excel.shiftingRowsUp(INPUT_PATH, "ChurnPayingMember", 1);
+		Excel.shiftingRowsUp(INPUT_PATH, "ChurnPayingMember", 1);
+		
+		if(text.contains("BAS"))
+		{
+			String act1=driver.findElement(By.xpath("//h3[contains(text(),'konto är avslutat')]")).getText();
+			String actTrim1 = act1.replaceAll("\\s+", "");
+			String exp1= "BASkontoäravslutat";
+			
+			Assert.assertEquals(actTrim1, exp1);
+			log.info(act1);
+		}
+		
+		else if(text.contains("STANDARD"))
+		{
+			String act1=driver.findElement(By.xpath("//h3[contains(text(),'konto är avslutat')]")).getText();
+			String actTrim1 = act1.replaceAll("\\s+", "");
+			String exp1= "STANDARDkontoäravslutat";
+			
+			Assert.assertEquals(actTrim1, exp1);
+			log.info(act1);
+		}
+		
+		else if(text.contains("PREMIUM"))
+		{
+			String act1=driver.findElement(By.xpath("//h3[contains(text(),'konto är avslutat')]")).getText();
+			String actTrim1 = act1.replaceAll("\\s+", "");
+			String exp1= "PREMIUMkontoäravslutat";
+			
+			Assert.assertEquals(actTrim1, exp1);
+			log.info(act1);
+		}
+		
+		String customerid= Database.executeQuery("select customerid from customerinfo where email='" +un+ "'"); 
+		String runDate= Database.executeQuery("select next_subscription_run_date from customer2subscriptionmap where customerid=" +customerid);
+		
+		
+			String exp= runDate;
+			String act=driver.findElement(By.xpath("//h5[contains(text(),'konto är giltigt')]/../..//li[@class='left']")).getText();
+			Assert.assertEquals(act, exp);	
+			log.info("Expected date for Account access is until : " +exp);
+			log.info("Your Default account is valid until : "+act);
+	
+		
+		
+		if(acc.activeraIsClickable())
+		{
+			log.info("Aktivera button is enabled and clickable");
+		}
+		else
+		{
+			log.info("Aktivera button is not enabled");
+		}
+		
 		log.info("logging out");
 		MyAccountPage account=new MyAccountPage(driver);
 		account.clickLogOut();
+		
+		new WebDriverWait(driver,30).until(ExpectedConditions.titleContains("Ljudböcker & E-böcker - Lyssna & läs gratis i mobilen"));
+		
+		driver.manage().deleteAllCookies();
+		driver.get(adminUrl);
+		
+		AdminPage admin=new AdminPage(driver);
+		admin.setUserName(adminUn);
+		admin.setPassword(adminPwd);
+		admin.clickLogin();
+		admin.clickCustMgmt();
+		admin.setEPost(un);
+		admin.clickSearch();
+		String memberStatus = admin.getMemberType();
+		String subsType = admin.getSubsType();
+		
+			Assert.assertEquals(memberStatus, "MEMBER_PAYING_CANCELLED");
+			log.info("Membership Status is: " +memberStatus + " in Admin Site");
+			
+			if(subs.equalsIgnoreCase("BAS"))
+			{
+				subs= "BASE";
+			}
+			
+			else if(subs.contains("PREMIUM PLUS"))
+			{
+				subs="PREMIUM";
+			}
+			
+			Assert.assertEquals(subsType, subs);
+			log.info("Subscription Type is: " +subsType+ " in Admin Site");
+		
+		
+		
+		admin.clickLogout();
+		driver.get(url);
 		
 	}
 	
