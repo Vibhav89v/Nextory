@@ -199,7 +199,7 @@ public class RedeemGiftCards extends SuperTestScript
 		 
 			 log.info("REDEEMING GIFTCARD FOR STANDARD SUBSCRIPTION");
 			 
-			 log.info("Clicking on Presentkort Link");
+			log.info("Clicking on Presentkort Link");
 			HomePage home=new HomePage(driver);
 			home.clickGiftCard();
 			

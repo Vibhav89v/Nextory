@@ -4,61 +4,273 @@
 <th>Method name</th>
 <th>Groups</th>
 </tr><tr>
-<td>registrationFlows.RedeemFreeCampaignMember</td>
+<td>confirmationsRuleMailer.SubscriptionUpgrade</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@Test</td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>freeCampaignMemberNewUserStandard</td>
-<td>All Registrations </td>
+<td>selectingSameSubscriptionToUpgrade</td>
+<td>All ConfirmationsRuleMailerNegative </td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>freeCampaignMemberNewUserBas</td>
-<td>All Registrations </td>
+<td>checkingCancelButtons</td>
+<td>All ConfirmationsRuleMailerNegative </td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>freeCampaignMemberExistingUser</td>
-<td>All Registrations </td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>freeCampaignMemberNewUserPremium</td>
-<td>All Registrations </td>
+<td>existingMemberSubscriptionUpgrade</td>
+<td>All ConfirmationsRuleMailerPositive </td>
 </tr>
 <tr>
 <td align='center' colspan='3'>@BeforeClass</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>initApplication</td>
-<td>All Registrations CustomerEducationRuleMail GiftCardRuleMailer PostRegistrationRuleMailer ConfirmationsRuleMailer </td>
 </tr>
 <tr>
 <td align='center' colspan='3'>@BeforeMethod</td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>preCondition</td>
-<td>All Registrations CustomerEducationRuleMail GiftCardRuleMailer PostRegistrationRuleMailer ConfirmationsRuleMailer </td>
+<td>initApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
 </tr>
 <tr>
 <td align='center' colspan='3'>@AfterMethod</td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>postCondition</td>
-<td>All Registrations CustomerEducationRuleMail GiftCardRuleMailer PostRegistrationRuleMailer ConfirmationsRuleMailer </td>
+<td>cleanApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
 </tr>
 <tr>
 <td align='center' colspan='3'>@AfterClass</td>
 </tr>
 <tr>
+<td>confirmationsRuleMailer.WelcomeBackNoOffer</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>welcomeBackNoOfferBas</td>
+<td>All ConfirmationsRuleMailerPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>welcomeBackNoOfferStandard</td>
+<td>All ConfirmationsRuleMailerPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>negativeFlows</td>
+<td>All ConfirmationsRuleMailerNegative </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>welcomeBackNoOfferPremium</td>
+<td>All ConfirmationsRuleMailerPositive </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>initApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
 <td>&nbsp;</td>
 <td>cleanApplication</td>
-<td>All Registrations CustomerEducationRuleMail GiftCardRuleMailer PostRegistrationRuleMailer ConfirmationsRuleMailer </td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>registrationFlows.PurchaseGiftCards</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>giftCardPurchaseNewUserThreeManad</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>oneMonthGiftCardPurchaseExistingUser</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>sixMonthGiftCardPurchaseExistingUser</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>threeMonthGiftCardPurchaseExistingUser</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>invalidInputsNewUserPurchase</td>
+<td>All RegistrationsNegative </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>giftCardPurchaseNewUserSixManad</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>invalidInputsExisitingUserPurchase</td>
+<td>All RegistrationsNegative </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>giftCardPurchaseNewUserOneManad</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>checkingCancelButtons</td>
+<td>All RegistrationsNegative </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>initApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>cleanApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>registrationFlows.RedeemGiftCards</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>redeemGiftCardPremiumNewUser</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>redeemGiftCardExistingUserNegative</td>
+<td>All RegistrationsNegative </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>redeemGiftCardStandardNewUser</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>redeemGiftCardBasNewUser</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>redeemGiftCardExistingUserWithoutLogin</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>redeemGiftCardExistingUserWithLogin</td>
+<td>All RegistrationsPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>redeemGiftCardNewUserNegative</td>
+<td>All RegistrationsNegative </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>initApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>cleanApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>confirmationsRuleMailer.ChurnPayingMember</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>churnPayingMemberNoSelection</td>
+<td>All ConfirmationsRuleMailerNegative </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>churnPayingMemberTC100602</td>
+<td>All ConfirmationsRuleMailerPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>churnPayingMemberTC100601</td>
+<td>All ConfirmationsRuleMailerPositive </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>initApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>cleanApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
 </tr>
 </table>

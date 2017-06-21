@@ -5,27 +5,71 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="PostRegistrationRuleMailer"/>
+        <include name="PostRegistrationRuleMailerNegative"/>
+        <include name="PostRegistrationRuleMailerPositive"/>
         <include name="ConfirmationsRuleMailerPositive"/>
         <include name="ConfirmationsRuleMailerNegative"/>
-        <include name="Registrations"/>
+        <include name="RegistrationsPositive"/>
+        <include name="RegistrationsNegative"/>
       </run>
     </groups>
     <classes>
-      <class name="registrationFlows.RedeemGiftCards">
+      <class name="registrationFlows.PurchaseGiftCards">
         <methods>
-          <include name="redeemGiftCardExistingUserWithLogin"/>
           <include name="cleanApplication"/>
-          <include name="redeemGiftCardExistingUserWithoutLogin"/>
-          <include name="initBrowser"/>
           <include name="initApplication"/>
+          <include name="initBrowser"/>
+          <include name="giftCardPurchaseNewUserOneManad"/>
           <include name="closeBrowser"/>
-          <include name="postCondition"/>
+          <include name="giftCardPurchaseNewUserThreeManad"/>
           <include name="initFramework"/>
-          <include name="preCondition"/>
           <include name="closeFramework"/>
         </methods>
+      </class> <!-- registrationFlows.PurchaseGiftCards -->
+      <class name="registrationFlows.RedeemGiftCards">
+        <methods>
+          <include name="cleanApplication"/>
+          <include name="initApplication"/>
+          <include name="initBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+          <include name="redeemGiftCardExistingUserNegative"/>
+        </methods>
       </class> <!-- registrationFlows.RedeemGiftCards -->
+      <class name="confirmationsRuleMailer.ChurnPayingMember">
+        <methods>
+          <include name="cleanApplication"/>
+          <include name="initApplication"/>
+          <include name="initBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="churnPayingMemberNoSelection"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+        </methods>
+      </class> <!-- confirmationsRuleMailer.ChurnPayingMember -->
+      <class name="confirmationsRuleMailer.WelcomeBackNoOffer">
+        <methods>
+          <include name="cleanApplication"/>
+          <include name="initApplication"/>
+          <include name="initBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+          <include name="welcomeBackNoOfferBas"/>
+        </methods>
+      </class> <!-- confirmationsRuleMailer.WelcomeBackNoOffer -->
+      <class name="confirmationsRuleMailer.SubscriptionUpgrade">
+        <methods>
+          <include name="cleanApplication"/>
+          <include name="initApplication"/>
+          <include name="initBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="checkingCancelButtons"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+        </methods>
+      </class> <!-- confirmationsRuleMailer.SubscriptionUpgrade -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
