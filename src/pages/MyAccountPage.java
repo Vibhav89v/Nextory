@@ -37,7 +37,6 @@ public class MyAccountPage extends BasePage
 	@FindBy(xpath= "//button[@class='blueButton flex nedgradering popupLink']")
 	private WebElement AvbrytNedgradering;
 	
-	
 	public MyAccountPage(WebDriver driver) 
 	{
 		super(driver);
