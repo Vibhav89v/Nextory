@@ -3,17 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="registrationFlows.RedeemGiftCards">
+      <class name="confirmationsRuleMailer.SubscriptionDowngrade">
         <methods>
+          <include name="checkingCancelButtons"/>
           <include name="cleanApplication"/>
           <include name="initBrowser"/>
           <include name="initApplication"/>
           <include name="closeBrowser"/>
-          <include name="redeemGiftCardNewUserNegative"/>
           <include name="initFramework"/>
+          <include name="subscriptionDowngrade"/>
           <include name="closeFramework"/>
+          <include name="selectingSameSubscriptionToUpgrade"/>
         </methods>
-      </class> <!-- registrationFlows.RedeemGiftCards -->
+      </class> <!-- confirmationsRuleMailer.SubscriptionDowngrade -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

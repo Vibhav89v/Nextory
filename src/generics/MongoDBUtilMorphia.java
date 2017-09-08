@@ -1,6 +1,5 @@
 package generics;
 
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -111,7 +110,8 @@ public class MongoDBUtilMorphia implements AutomationConstants
        }
 		String[] serverAddressList = StringUtils.split(serverAddress, ",");
 			List<ServerAddress> addressList = new ArrayList<ServerAddress>();
-			for (int i = 0; i < serverAddressList.length; i++) {
+			for (int i = 0; i < serverAddressList.length; i++) 
+			{
 				String[] serverdetails = StringUtils.split(serverAddressList[i], ":");
 				if(serverdetails.length == 2)
 					addressList.add(new ServerAddress(serverdetails[0],Integer.parseInt(serverdetails[1])));
@@ -131,7 +131,9 @@ public class MongoDBUtilMorphia implements AutomationConstants
 	    		//mongoClient = new MongoClient(new ServerAddress(serverAddress),Arrays.asList(mongoCredential));
 	    		//mongoClient = new MongoClient(addressList,Arrays.asList(mongoCredential));
 	    		//com.mongodb.ReadPreference.primaryPreferred();
-	    	}else{
+	    	}
+			else
+			{
 	    		mongoClient = new MongoClient(addressList);
 	    	}
 			//BSON.addEncodingHook(DateTime.class, new JodaTimeTransformer());

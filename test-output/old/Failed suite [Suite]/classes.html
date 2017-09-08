@@ -4,6 +4,54 @@
 <th>Method name</th>
 <th>Groups</th>
 </tr><tr>
+<td>postRegistrationRuleMailer.Welcome</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>welcomeStandardSubscription</td>
+<td>All PostRegistrationRuleMailerPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>welcomeBasSubscription</td>
+<td>All PostRegistrationRuleMailerPositive </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>negativeFreeTrialRegistration</td>
+<td>All PostRegistrationRuleMailerNegative </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>welcomePremiumSubscription</td>
+<td>All PostRegistrationRuleMailerPositive </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>initApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>cleanApplication</td>
+<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
 <td>confirmationsRuleMailer.SubscriptionUpgrade</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
@@ -95,79 +143,6 @@
 <td align='center' colspan='3'>@AfterClass</td>
 </tr>
 <tr>
-<td>registrationFlows.PurchaseGiftCards</td>
-<td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr>
-<td align='center' colspan='3'>@Test</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>giftCardPurchaseNewUserThreeManad</td>
-<td>All RegistrationsPositive </td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>oneMonthGiftCardPurchaseExistingUser</td>
-<td>All RegistrationsPositive </td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>sixMonthGiftCardPurchaseExistingUser</td>
-<td>All RegistrationsPositive </td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>threeMonthGiftCardPurchaseExistingUser</td>
-<td>All RegistrationsPositive </td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>invalidInputsNewUserPurchase</td>
-<td>All RegistrationsNegative </td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>giftCardPurchaseNewUserSixManad</td>
-<td>All RegistrationsPositive </td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>invalidInputsExisitingUserPurchase</td>
-<td>All RegistrationsNegative </td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>giftCardPurchaseNewUserOneManad</td>
-<td>All RegistrationsPositive </td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>checkingCancelButtons</td>
-<td>All RegistrationsNegative </td>
-</tr>
-<tr>
-<td align='center' colspan='3'>@BeforeClass</td>
-</tr>
-<tr>
-<td align='center' colspan='3'>@BeforeMethod</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>initApplication</td>
-<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
-</tr>
-<tr>
-<td align='center' colspan='3'>@AfterMethod</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>cleanApplication</td>
-<td>All CustomerEducationRuleMail RegistrationsPositive RegistrationsNegative ConfirmationsRuleMailerPositive ConfirmationsRuleMailerNegative PostRegistrationRuleMailerPositive PostRegistrationRuleMailerNegative GiftCardRuleMailer </td>
-</tr>
-<tr>
-<td align='center' colspan='3'>@AfterClass</td>
-</tr>
-<tr>
 <td>registrationFlows.RedeemGiftCards</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
@@ -180,13 +155,13 @@
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>redeemGiftCardExistingUserNegative</td>
-<td>All RegistrationsNegative </td>
+<td>redeemGiftCardStandardNewUser</td>
+<td>All RegistrationsPositive </td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>redeemGiftCardStandardNewUser</td>
-<td>All RegistrationsPositive </td>
+<td>redeemGiftCardExistingUserNegative</td>
+<td>All RegistrationsNegative </td>
 </tr>
 <tr>
 <td>&nbsp;</td>

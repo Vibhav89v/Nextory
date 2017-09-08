@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
-  <test name="Test(failed)(failed)(failed)">
-    <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="PostRegistrationRuleMailerNegative"/>
-        <include name="PostRegistrationRuleMailerPositive"/>
-        <include name="ConfirmationsRuleMailerPositive"/>
-        <include name="ConfirmationsRuleMailerNegative"/>
-        <include name="RegistrationsPositive"/>
-        <include name="RegistrationsNegative"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="confirmationsRuleMailer.ChurnPayingMember">
+      <class name="confirmationsRuleMailer.SubscriptionDowngrade">
         <methods>
+          <include name="checkingCancelButtons"/>
           <include name="cleanApplication"/>
           <include name="initBrowser"/>
           <include name="initApplication"/>
           <include name="closeBrowser"/>
-          <include name="churnPayingMemberNoSelection"/>
           <include name="initFramework"/>
+          <include name="subscriptionDowngrade"/>
           <include name="closeFramework"/>
+          <include name="selectingSameSubscriptionToUpgrade"/>
         </methods>
-      </class> <!-- confirmationsRuleMailer.ChurnPayingMember -->
+      </class> <!-- confirmationsRuleMailer.SubscriptionDowngrade -->
     </classes>
-  </test> <!-- Test(failed)(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

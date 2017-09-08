@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test" preserve-order="true">
+	<test name="Test" preserve-order="true">
 
-<parameter name="browser" value="chrome"></parameter>
-  
-  <groups>
-  <run>
-  <include name="PostRegistrationRuleMailerNegative"></include>
-  <include name="PostRegistrationRuleMailerPositive"></include>
-  <include name="ConfirmationsRuleMailerPositive"></include>
-  <include name="ConfirmationsRuleMailerNegative"></include>
-  <include name="RegistrationsPositive"></include>
-  <include name="RegistrationsNegative"></include>
-  
-  </run>
-  </groups>
-  
-  <classes>
+		<parameter name="browser" value="chrome"></parameter>
 
-  <class name="postRegistrationRuleMailer.Welcome"/>
-  	<class name="confirmationsRuleMailer.WelcomeBackNoOffer"/>
-    <class name="confirmationsRuleMailer.SubscriptionDowngrade"/>
-    <class name="confirmationsRuleMailer.SubscriptionUpgrade"/>    
-    <class name="confirmationsRuleMailer.ChurnFreeTrialCampaignMember"/>
+		<groups>
+			<run>
+				<include name="PostRegistrationRuleMailerNegative"></include>
+				<include name="PostRegistrationRuleMailerPositive"></include>
+				<include name="ConfirmationsRuleMailerPositive"></include>
+				<include name="ConfirmationsRuleMailerNegative"></include>
+				<include name="RegistrationsPositive"></include>
+				<include name="RegistrationsNegative"></include>
 
-    <class name="confirmationsRuleMailer.ChurnPayingMember"/>
-    <class name="confirmationsRuleMailer.CardUpdatedExpiry"/>
-    <class name="confirmationsRuleMailer.ForgotPassword"/>
-	<class name="registrationFlows.PurchaseGiftCards"/>
-    <class name="registrationFlows.RedeemFreeCampaignMember"/>
-    <class name="registrationFlows.RedeemGiftCards"/>
-  
-    
-	
-  </classes>
-  </test> 
+			</run>
+		</groups>
+
+		<classes>
+			<class name="postRegistrationRuleMailer.Welcome" />
+			<class name="confirmationsRuleMailer.WelcomeBackNoOffer" />
+			<class name="confirmationsRuleMailer.SubscriptionDowngrade" />
+			<class name="confirmationsRuleMailer.SubscriptionUpgrade" />
+			<class name="confirmationsRuleMailer.ChurnFreeTrialCampaignMember" />
+
+			<class name="confirmationsRuleMailer.ChurnPayingMember" />
+			<class name="confirmationsRuleMailer.CardUpdatedExpiry" />
+			<class name="confirmationsRuleMailer.ForgotPassword" />
+			<class name="registrationFlows.PurchaseGiftCards" />
+			<class name="registrationFlows.RedeemFreeCampaignMember" />
+			<class name="registrationFlows.RedeemGiftCards" />
+		</classes>
+	</test>
 </suite> 

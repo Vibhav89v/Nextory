@@ -9,14 +9,14 @@ import common.BasePage;
 
 public class NewSubscriptionPage extends BasePage
 {
-	@FindBy(xpath="//button[contains(text(),'Bas')]")
-	private WebElement BasSubscription;
+	@FindBy(xpath="//button[contains(text(),'Silver')]")
+	private WebElement SilverSubscription;
 	
-	@FindBy(xpath="//button[contains(text(),'Standard')]")
-	private WebElement StandardSubscription;
+	@FindBy(xpath="//button[contains(text(),'Guld')]")
+	private WebElement GuldSubscription;
 	
-	@FindBy(xpath="//button[contains(text(),'Premium')]")
-	private WebElement PremiumSubscription;
+	@FindBy(xpath="//button[contains(text(),'Familj')]")
+	private WebElement FamiljSubscription;
 	
 	@FindBy(xpath="//button[contains(text(),'Fortsätt')]")
 	private WebElement Fortsatt;
@@ -27,22 +27,22 @@ public class NewSubscriptionPage extends BasePage
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void clickBasSub()
+	public void clickSilverSub()
 	{
-		waitTillElementIsVisible(BasSubscription);
-		BasSubscription.click();
+		waitTillElementIsVisible(SilverSubscription);
+		SilverSubscription.click();
 	}
 	
-	public void clickStandardSub()
+	public void clickGuldSub()
 	{
-		waitTillElementIsVisible(StandardSubscription);
-		StandardSubscription.click();
+		waitTillElementIsVisible(GuldSubscription);
+		GuldSubscription.click();
 	}
 	
-	public void clickPremiumSub()
+	public void clickFamiljSub()
 	{
-		waitTillElementIsVisible(PremiumSubscription);
-		PremiumSubscription.click();
+		waitTillElementIsVisible(FamiljSubscription);
+		FamiljSubscription.click();
 	}
 	
 	public void clickContinue()

@@ -12,13 +12,13 @@ public class ChangingSubscriptionPage extends BasePage
 	
 
 	@FindBy(xpath="//li[@data-rank='10']")
-	private WebElement BasSubs;
+	private WebElement SilverSubs;
 	
 	@FindBy(xpath="//li[@data-rank='20']")
-	private WebElement StandardSubs;
+	private WebElement GuldSubs;
 	
 	@FindBy(xpath="//li[@data-rank='30']")
-	private WebElement PremiumSubs;
+	private WebElement FamiljSubs;
 	
 	@FindBy(xpath="//button[@class='blueButton responsive']")
 	private WebElement Fortsätt;
@@ -39,22 +39,22 @@ public class ChangingSubscriptionPage extends BasePage
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void changeToBas()
+	public void changeToSilver()
 	{
-		waitTillElementIsVisible(BasSubs);
-		BasSubs.click();
+		waitTillElementIsVisible(SilverSubs);
+		SilverSubs.click();
 	}
 	
-	public void changeToStandard()
+	public void changeToGuld()
 	{
-		waitTillElementIsVisible(StandardSubs);
-		StandardSubs.click();
+		waitTillElementIsVisible(GuldSubs);
+		GuldSubs.click();
 	}
 	
-	public void changeToPremium()
+	public void changeToFamilj()
 	{
-		waitTillElementIsVisible(PremiumSubs);
-		PremiumSubs.click();
+		waitTillElementIsVisible(FamiljSubs);
+		FamiljSubs.click();
 	}
 	
 	public void clickToContinue()

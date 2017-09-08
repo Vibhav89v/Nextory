@@ -161,7 +161,7 @@ public class PaymentCardDetailsPage extends BasePage
 	@FindBy(xpath="//input[@class='doSub paymentsubmit']")
 	private WebElement PaymentSubmitButton;
 	
-	@FindBy(xpath="//input[@value='Starta din gratisperiod']")
+	@FindBy(xpath="//input[@value='Återaktivera ditt abonnemang']")
 	private WebElement ReactivateSubs;
 	
 	@FindBy(xpath="//input[@value='Få presentkortet!']")
@@ -194,8 +194,8 @@ public class PaymentCardDetailsPage extends BasePage
 	
 	public void typeCardNumber(String cardNumber)
 	{
-		waitTillElementIsVisible(KortNummerNew);
-		KortNummerNew.sendKeys(cardNumber);
+		waitTillElementIsVisible(KortNummerTextBox);
+		KortNummerTextBox.sendKeys(cardNumber);
 	}
 	
 	

@@ -36,7 +36,7 @@ public class AdminPage extends BasePage
 	@FindBy(xpath="//input[@id='membertype']")
 	private WebElement MemberType;
 	
-	@FindBy(xpath="//input[@id='subscriptionType']")
+	@FindBy(xpath="//td[contains(text(),'Subscription Type')]/following-sibling::td[1]/input")
 	private WebElement SubsType;
 	
 	@FindBy(xpath="//a[contains(text(),'Logout')]")

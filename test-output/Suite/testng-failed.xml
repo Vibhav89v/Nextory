@@ -14,35 +14,14 @@
       </run>
     </groups>
     <classes>
-      <class name="registrationFlows.PurchaseGiftCards">
-        <methods>
-          <include name="cleanApplication"/>
-          <include name="initApplication"/>
-          <include name="initBrowser"/>
-          <include name="giftCardPurchaseNewUserOneManad"/>
-          <include name="closeBrowser"/>
-          <include name="giftCardPurchaseNewUserThreeManad"/>
-          <include name="initFramework"/>
-          <include name="closeFramework"/>
-        </methods>
-      </class> <!-- registrationFlows.PurchaseGiftCards -->
-      <class name="registrationFlows.RedeemGiftCards">
-        <methods>
-          <include name="cleanApplication"/>
-          <include name="initApplication"/>
-          <include name="initBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="initFramework"/>
-          <include name="closeFramework"/>
-          <include name="redeemGiftCardExistingUserNegative"/>
-        </methods>
-      </class> <!-- registrationFlows.RedeemGiftCards -->
       <class name="confirmationsRuleMailer.ChurnPayingMember">
         <methods>
           <include name="cleanApplication"/>
-          <include name="initApplication"/>
           <include name="initBrowser"/>
+          <include name="initApplication"/>
           <include name="closeBrowser"/>
+          <include name="churnPayingMemberTC100601"/>
+          <include name="churnPayingMemberTC100602"/>
           <include name="churnPayingMemberNoSelection"/>
           <include name="initFramework"/>
           <include name="closeFramework"/>
@@ -51,25 +30,144 @@
       <class name="confirmationsRuleMailer.WelcomeBackNoOffer">
         <methods>
           <include name="cleanApplication"/>
-          <include name="initApplication"/>
           <include name="initBrowser"/>
+          <include name="initApplication"/>
           <include name="closeBrowser"/>
+          <include name="negativeFlows"/>
+          <include name="welcomeBackNoOfferStandard"/>
+          <include name="welcomeBackNoOfferPremium"/>
           <include name="initFramework"/>
           <include name="closeFramework"/>
           <include name="welcomeBackNoOfferBas"/>
         </methods>
       </class> <!-- confirmationsRuleMailer.WelcomeBackNoOffer -->
+      <class name="registrationFlows.RedeemFreeCampaignMember">
+        <methods>
+          <include name="cleanApplication"/>
+          <include name="freeCampaignMemberNewUserBas"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="closeBrowser"/>
+          <include name="freeCampaignMemberExistingUser"/>
+          <include name="freeCampaignMemberNewUserPremium"/>
+          <include name="freeCampaignMemberNewUserStandard"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+        </methods>
+      </class> <!-- registrationFlows.RedeemFreeCampaignMember -->
+      <class name="confirmationsRuleMailer.CardUpdatedExpiry">
+        <methods>
+          <include name="cleanApplication"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="closeBrowser"/>
+          <include name="cardUpdatedExpiry"/>
+          <include name="initFramework"/>
+          <include name="negativeFlows"/>
+          <include name="closeFramework"/>
+        </methods>
+      </class> <!-- confirmationsRuleMailer.CardUpdatedExpiry -->
+      <class name="postRegistrationRuleMailer.Welcome">
+        <methods>
+          <include name="cleanApplication"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="closeBrowser"/>
+          <include name="welcomePremiumSubscription"/>
+          <include name="negativeFreeTrialRegistration"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+          <include name="welcomeBasSubscription"/>
+          <include name="welcomeStandardSubscription"/>
+        </methods>
+      </class> <!-- postRegistrationRuleMailer.Welcome -->
+      <class name="confirmationsRuleMailer.SubscriptionDowngrade">
+        <methods>
+          <include name="checkingCancelButtons"/>
+          <include name="cleanApplication"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="closeBrowser"/>
+          <include name="initFramework"/>
+          <include name="subscriptionDowngrade"/>
+          <include name="closeFramework"/>
+          <include name="selectingSameSubscriptionToUpgrade"/>
+        </methods>
+      </class> <!-- confirmationsRuleMailer.SubscriptionDowngrade -->
+      <class name="registrationFlows.RedeemGiftCards">
+        <methods>
+          <include name="redeemGiftCardStandardNewUser"/>
+          <include name="cleanApplication"/>
+          <include name="closeBrowser"/>
+          <include name="redeemGiftCardPremiumNewUser"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+          <include name="redeemGiftCardExistingUserWithLogin"/>
+          <include name="redeemGiftCardExistingUserWithoutLogin"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="redeemGiftCardNewUserNegative"/>
+          <include name="redeemGiftCardExistingUserNegative"/>
+          <include name="redeemGiftCardBasNewUser"/>
+        </methods>
+      </class> <!-- registrationFlows.RedeemGiftCards -->
+      <class name="confirmationsRuleMailer.ChurnFreeTrialCampaignMember">
+        <methods>
+          <include name="cleanApplication"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="closeBrowser"/>
+          <include name="churnFreeTrialCampaignMember"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+          <include name="churnFreeTrialCampaignMemberNoSelection"/>
+        </methods>
+      </class> <!-- confirmationsRuleMailer.ChurnFreeTrialCampaignMember -->
       <class name="confirmationsRuleMailer.SubscriptionUpgrade">
         <methods>
           <include name="cleanApplication"/>
-          <include name="initApplication"/>
           <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="existingMemberSubscriptionUpgrade"/>
           <include name="closeBrowser"/>
           <include name="checkingCancelButtons"/>
+          <include name="selectingSameSubscriptionToUpgrade"/>
           <include name="initFramework"/>
           <include name="closeFramework"/>
         </methods>
       </class> <!-- confirmationsRuleMailer.SubscriptionUpgrade -->
+      <class name="confirmationsRuleMailer.ForgotPassword">
+        <methods>
+          <include name="forgotPasswordBlankEmail"/>
+          <include name="cleanApplication"/>
+          <include name="forgotPasswordWrongEmail"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="closeBrowser"/>
+          <include name="forgotPasswordTC101001"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+        </methods>
+      </class> <!-- confirmationsRuleMailer.ForgotPassword -->
+      <class name="registrationFlows.PurchaseGiftCards">
+        <methods>
+          <include name="cleanApplication"/>
+          <include name="giftCardPurchaseNewUserSixManad"/>
+          <include name="closeBrowser"/>
+          <include name="checkingCancelButtons"/>
+          <include name="invalidInputsExisitingUserPurchase"/>
+          <include name="oneMonthGiftCardPurchaseExistingUser"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+          <include name="sixMonthGiftCardPurchaseExistingUser"/>
+          <include name="invalidInputsNewUserPurchase"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="giftCardPurchaseNewUserOneManad"/>
+          <include name="giftCardPurchaseNewUserThreeManad"/>
+          <include name="threeMonthGiftCardPurchaseExistingUser"/>
+        </methods>
+      </class> <!-- registrationFlows.PurchaseGiftCards -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
